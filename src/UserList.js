@@ -51,7 +51,7 @@ const UserList = () => {
           `https://jsonplaceholder.typicode.com/users/${editingUser.id}`,
           { ...editingUser, ...newUser }
         );
-        // Update user in the local state
+        // Update user in the local state with the response data (after API update)
         setUsers(
           users.map((user) =>
             user.id === editingUser.id ? response.data : user
