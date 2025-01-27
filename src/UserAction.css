@@ -1,0 +1,22 @@
+.actions {
+  display: flex;
+  gap: 10px;
+}
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background- color 0.2s ease-in-out;
+}
+button:hover {
+  background-color: #0056b3;
+}
+button.delete {
+  background-color: #dc3545;
+}
+button.delete:hover {
+  background-color: #a71d2a;
+}
